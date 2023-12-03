@@ -12,8 +12,10 @@ RUN apt-get update && \
 
 # Mudar de volta para o usuário do notebook
 
-RUN docker run -p 8888:8888 beakerx/beakerx
-
+RUN conda create -y -n beakerx 'python>=3'
+RUN source activate beakerx
+RUN conda config --env --add pinned_packages 'openjdk>8.0.121'
+RUN conda install -y -c conda-forge ipywidgets beakerx
 USER $NB_UID
 
 EXPOSE 8888
