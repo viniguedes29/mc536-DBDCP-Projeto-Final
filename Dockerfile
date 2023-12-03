@@ -14,9 +14,8 @@ RUN apt-get update && \
 USER $NB_UID
 
 # Instalar o BeakerX para SQL
-RUN conda update -n base -c conda-forge conda
-RUN conda install -c conda-forge beakerx
-
+RUN pip install beakerx
+RUN beakerx install
 # Configurar a porta do Jupyter Notebook
 EXPOSE 8888
 
