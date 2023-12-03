@@ -13,10 +13,6 @@ RUN apt-get update && \
 # Mudar de volta para o usuário do notebook
 USER $NB_UID
 
-# Instalar o BeakerX para SQL
-RUN pip install beakerx
-RUN beakerx install
-# Configurar a porta do Jupyter Notebook
 EXPOSE 8888
 
 # Iniciar o JupyterLab
