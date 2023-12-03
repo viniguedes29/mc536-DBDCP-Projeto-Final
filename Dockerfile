@@ -11,6 +11,9 @@ RUN apt-get update && \
     apt-get autoremove -y 
 
 # Mudar de volta para o usuário do notebook
+
+RUN docker run -p 8888:8888 beakerx/beakerx
+
 USER $NB_UID
 
 EXPOSE 8888
