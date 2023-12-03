@@ -14,7 +14,7 @@ RUN apt-get update && \
 USER $NB_UID
 
 # Instalar o BeakerX para SQL
-RUN conda update -n base -c defaults conda
+RUN conda update -n base -c conda-forge conda
 RUN conda install -c conda-forge beakerx
 
 # Configurar a porta do Jupyter Notebook
