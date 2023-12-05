@@ -41,10 +41,10 @@ Fizemos a implementação em SQL e um script auxiliar em Python
 ### Apresentação Prévia
 > Tivemos que mudar, pois fizemos com outra equipe que acabou desistindo da matéria, então tivemos que mudar o projeto
 ### Apresentação Final
-> [Slide](assets\Apresentação - Projeto Final.pdf)
+> [Slide](assets/Apresentação%20-%20Projeto%20Final.pdf)
 
 ## Modelo Conceitual
-![](modelo_relacional/Diagrama%20relacional.drawio.png)
+![Modelo Conceitual](assets/Diagrama%20relacional.drawio.png)
 
 
 ## Modelos Lógicos
@@ -103,11 +103,13 @@ título do arquivo/base | link | breve descrição
 
 
 ## Bases de Dados
-> Elencar as bases de dados fonte utilizadas no projeto.
+> 
 
 título da base | link | breve descrição
 ----- | ----- | -----
 `<EFSA_Intake>` | `<https://www.efsa.europa.eu/en/data-report/food-consumption-data>` | `<Base de consumo da pesquisa de consumo de comida da Europa>`
+`<FoodDB>` | `<https://foodb.ca/>` | `<Base de alimentos>`
+`<What We eat in America? - FICD>` | `<https://fcid.foodrisk.org/dbc/>` | `<Base de alimentos>`
 
 ## Detalhamento do Projeto
 Detalhamento do Projeto:
