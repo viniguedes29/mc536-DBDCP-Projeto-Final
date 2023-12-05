@@ -252,4 +252,3 @@ Por fim, na seleção de perguntas tivemos um foco maior nas perguntas a serem r
 > * Pergunta 3
 >   
 >   * É possível prever a presença de pares de ingredientes em uma mesma receita?
-
